@@ -13,6 +13,8 @@ export const pagesComponents = {
   "v-14b2ee8b": defineAsyncComponent(() => import(/* webpackChunkName: "v-14b2ee8b" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/index.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/index.html.vue")),
+  // path: /guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html
+  "v-e6b0cc1a": defineAsyncComponent(() => import(/* webpackChunkName: "v-e6b0cc1a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/WEB前端发展.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/404.html.vue")),
 }

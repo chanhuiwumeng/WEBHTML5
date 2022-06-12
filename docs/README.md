@@ -1,7 +1,7 @@
 ---
 home: true
 tagline: 最新版WEB前端知识大纲汇总
-heroImage: https://vuejs.org/images/logo.png
+heroImage: /HTML5.svg
 heroText: '全新的WEB'
 actions: 
   - text: 快速上手 →

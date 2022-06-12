@@ -130,6 +130,44 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "WEB前端发展",
+    "headers": [
+      {
+        "level": 2,
+        "title": "WEB1.0",
+        "slug": "web1-0",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "WEB2.0",
+        "slug": "web2-0",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "WEB3.0",
+        "slug": "web3-0",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "WEB4.0",
+        "slug": "web4-0",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HTML5",
+        "slug": "html5",
+        "children": []
+      }
+    ],
+    "path": "/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",

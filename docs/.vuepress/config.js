@@ -46,9 +46,9 @@ module.exports = {
 	      sidebar: {
 	        '/guide/': [
 	          {
-	            text: '开发工具',
+	            text: '指南',
 				  collapsible: true,
-	            children: ['/guide/README.md'],
+	            children: ['/guide/WEB前端发展.md','/guide/README.md'],
 	          },
 	        ],
 	        '/html/': [

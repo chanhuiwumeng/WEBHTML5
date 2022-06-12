@@ -11,6 +11,8 @@ export const pagesData = {
   "v-14b2ee8b": () => import(/* webpackChunkName: "v-14b2ee8b" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/index.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
+  // path: /guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html
+  "v-e6b0cc1a": () => import(/* webpackChunkName: "v-e6b0cc1a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/WEB前端发展.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
