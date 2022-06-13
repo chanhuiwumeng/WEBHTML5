@@ -267,34 +267,30 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "HTML标签",
+    "title": "HTML发展史",
     "headers": [
       {
         "level": 2,
-        "title": "HTML简介",
-        "slug": "html简介",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "布局标签",
-        "slug": "布局标签",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "文本标签",
-        "slug": "文本标签",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "HTML5标签",
-        "slug": "html5标签",
+        "title": "html",
+        "slug": "html",
         "children": []
       }
     ],
-    "path": "/html/",
+    "path": "/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "html排班标签",
+    "headers": [],
+    "path": "/html/html%E6%8E%92%E7%89%88%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "html文字和超链接标签",
+    "headers": [],
+    "path": "/html/html%E6%96%87%E5%AD%97%E5%92%8C%E8%B6%85%E9%93%BE%E6%8E%A5%E6%A0%87%E7%AD%BE.html",
     "pathLocale": "/",
     "extraFields": []
   },
