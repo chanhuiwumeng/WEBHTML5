@@ -48,7 +48,7 @@ module.exports = {
 	          {
 	            text: '指南',
 				  collapsible: true,
-	            children: ['/guide/WEB前端发展.md','/guide/README.md'],
+	            children: ['/guide/WEB前端发展.md','/guide/浏览器.md','/guide/vscode.md'],
 	          },
 	        ],
 	        '/html/': [

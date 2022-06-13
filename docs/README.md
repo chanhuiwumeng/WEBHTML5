@@ -5,7 +5,7 @@ heroImage: /HTML5.svg
 heroText: '全新的WEB'
 actions: 
   - text: 快速上手 →
-    link: /guide/README.md
+    link: /guide/WEB前端发展.md
     type: primary
   - text: 项目简介
     link: /guide/
