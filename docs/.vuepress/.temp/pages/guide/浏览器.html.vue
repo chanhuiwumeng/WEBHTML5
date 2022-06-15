@@ -35,4 +35,13 @@
 <p>8、百度浏览器、世界之窗内核：IE内核；</p>
 <p>9、2345浏览器内核：好像以前是IE内核，现在也是IE+Chrome双内核了；</p>
 <p>10、UC浏览器内核：这个众口不一，UC说是他们自己研发的U3内核，但好像还是基于Webkit和Trident，还有说是基于火狐内核。</p>
+<h2 id="浏览器工作原理" tabindex="-1"><a class="header-anchor" href="#浏览器工作原理" aria-hidden="true">#</a> 浏览器工作原理</h2>
+<p>参考连接:</p>
+<p><a href="http://chuquan.me/2018/01/21/browser-architecture-overview/" target="_blank" rel="noopener noreferrer">浏览器原理解析<ExternalLinkIcon/></a></p>
+<p><a href="https://www.likecs.com/show-305422383.html" target="_blank" rel="noopener noreferrer">浏览器的工作原理<ExternalLinkIcon/></a></p>
+<p><a href="https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/" target="_blank" rel="noopener noreferrer">新式网络浏览器解密<ExternalLinkIcon/></a></p>
+<h2 id="程序员标准" tabindex="-1"><a class="header-anchor" href="#程序员标准" aria-hidden="true">#</a> 程序员标准</h2>
+<p><img src="/8.webp" alt=""></p>
+<h2 id="程序员发展史" tabindex="-1"><a class="header-anchor" href="#程序员发展史" aria-hidden="true">#</a> 程序员发展史</h2>
+<p><img src="/12.gif" alt=""></p>
 </div></template>

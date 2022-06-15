@@ -117,3 +117,62 @@ Berners-Lee和Groff随后将WorldWideWeb的许多组件改编为C编程语言版
 ![](/45.png)
 ![](/46.png)
 ![](/47.png)
+
+## WEB标准
+Web 标准让 Web 开发更加容易。
+
+Web标准，使得Web开发更加容易。
+
+Web标准由万维网联盟（W3C）制定。
+### 为什么要Web标准？
+
+对于浏览器开发商和 Web 程序开发人员在开发新的应用程序时遵守指定的标准更有利于 Web 更好地发展。
+
+开发人员按照 Web 标准制作网页，这样对于开发者来说就更加简单了，因为他们可以很容易了解彼此的编码。
+
+使用Web标准，将确保所有浏览器正确显示您的网站而无需费时重写。
+
+遵守标准的Web页面可以使得搜索引擎更容易访问并收入网页，也可以更容易转换为其他格式，并更易于访问程序代码（如JavaScript和DOM）。
+
+提示： 你可以使用网页验证服务器验证页面的标准性。
+### W3C - 万维网联盟
+W3C 创建和维护Web标准。
+
+蒂姆·伯纳斯·李（Tim Berners-Lee）是万维网联盟创始人发明者被称为互联网之父：
+
+"The dream behind the Web is of a common information space in which we communicate by sharing information."
+
+万维网联盟，建立于 1994 年，是一个国际性的联盟，其宗旨是投身于"引领 web 以激发其全部潜能"。
+
+W3C表示万维网联盟
+W3C创建于1994年10月
+W3C被Web发明者蒂姆·伯纳斯·李（Tim Berners-Lee）创建
+W3C是作为成员国机构组织
+W3C的工作是进行标准化网络
+W3C创建和维护的WWW标准
+W3C标准有W3C建议
+
+1、Web标准包括三个方面：
+
+结构标准（HTML）：用于对网页元素进行整理和分类。
+
+表现标准（CSS）：用于设置网页元素的版式、颜色、大小等外观样式。
+
+行为标准（JAVAScript）：用于定义网页的交互和行为。
+
+根据上面的Web标准，可以将 Web前端分为三层，如下。
+
+2、Web前端分三层：
+
+HTML（HyperText Markup Language）：超文本标记语言。从语义的角度描述页面的结构。相当于人的身体组织结构。
+CSS（Cascading Style Sheets）：层叠样式表。从审美的角度美化页面的样式。相当于人的衣服和打扮。
+JS：JavaScript。从交互的角度描述页面的行为。相当于人的动作，让人有生命力。
+
+**html就相当于人体的骨架 肌肉等**
+![](/6.webp)
+**css相当于人的美颜、化妆、服装等**
+![](/7.webp)
+
+**javascript相当于人的行为**
+
+![](/timg3.gif)

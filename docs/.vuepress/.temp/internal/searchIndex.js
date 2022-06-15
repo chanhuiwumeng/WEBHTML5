@@ -59,6 +59,118 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "HTML5发展史",
+    "headers": [],
+    "path": "/html/html5%E5%8F%91%E5%B1%95%E5%8F%B2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML内容标签",
+    "headers": [
+      {
+        "level": 2,
+        "title": "内容标签",
+        "slug": "内容标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "行内标签",
+        "slug": "行内标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "",
+        "slug": "",
+        "children": []
+      }
+    ],
+    "path": "/html/html%E5%86%85%E5%AE%B9%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML发展史",
+    "headers": [
+      {
+        "level": 2,
+        "title": "蒂姆伯纳斯李",
+        "slug": "蒂姆伯纳斯李",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "生平简介",
+        "slug": "生平简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "网络大事件",
+        "slug": "网络大事件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "w3c官网",
+        "slug": "w3c官网",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "WEB标准",
+        "slug": "web标准",
+        "children": [
+          {
+            "level": 3,
+            "title": "为什么要Web标准？",
+            "slug": "为什么要web标准",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "W3C - 万维网联盟",
+            "slug": "w3c-万维网联盟",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML图片和媒体标签",
+    "headers": [],
+    "path": "/html/html%E5%9B%BE%E7%89%87%E5%92%8C%E5%AA%92%E4%BD%93%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML文档标签",
+    "headers": [],
+    "path": "/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML表单标签",
+    "headers": [],
+    "path": "/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML表格标签",
+    "headers": [],
+    "path": "/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "VsCode开发工具",
     "headers": [
       {
@@ -253,44 +365,27 @@ export const searchIndex = [
         "title": "内核总结",
         "slug": "内核总结",
         "children": []
-      }
-    ],
-    "path": "/guide/%E6%B5%8F%E8%A7%88%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML其他标签",
-    "headers": [],
-    "path": "/html/html%E5%85%B6%E4%BB%96%E6%A0%87%E7%AD%BE.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "HTML发展史",
-    "headers": [
+      },
       {
         "level": 2,
-        "title": "html",
-        "slug": "html",
+        "title": "浏览器工作原理",
+        "slug": "浏览器工作原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "程序员标准",
+        "slug": "程序员标准",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "程序员发展史",
+        "slug": "程序员发展史",
         "children": []
       }
     ],
-    "path": "/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "html排班标签",
-    "headers": [],
-    "path": "/html/html%E6%8E%92%E7%89%88%E6%A0%87%E7%AD%BE.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "html文字和超链接标签",
-    "headers": [],
-    "path": "/html/html%E6%96%87%E5%AD%97%E5%92%8C%E8%B6%85%E9%93%BE%E6%8E%A5%E6%A0%87%E7%AD%BE.html",
+    "path": "/guide/%E6%B5%8F%E8%A7%88%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },

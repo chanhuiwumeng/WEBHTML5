@@ -1,0 +1,11 @@
+.home .hero h1{
+	background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 76px;
+	font-weight: 900;
+}
+.sidebar-item-children .sidebar-item-children .sidebar-item:not(.sidebar-heading).active{
+	font-weight: 700;
+	text-decoration: underline;
+}

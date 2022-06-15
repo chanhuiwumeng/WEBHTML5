@@ -2,7 +2,7 @@
 home: true
 tagline: 最新版WEB前端知识大纲汇总
 heroImage: /HTML5.svg
-heroText: '全新的WEB'
+heroText: '全新的WEB前端'
 actions: 
   - text: 快速上手 →
     link: /guide/WEB前端发展.md

@@ -14,8 +14,8 @@ module.exports = {
         // NavbarItem
         {
           text: 'HTML',
-          children: ['/html/html发展史.md', '/html/html排版标签.md','/html/html文字和超链接标签.md','/html/html其他标签.md'],
-        },
+          text: 'HTML',
+          children: ['/html/html发展史.md', '/html/html5发展史.md','/html/html文档标签.md','/html/html内容标签.md','/html/html图片和媒体标签','/html/html表格标签.md','/html/html表单标签.md'],        },
         // NavbarGroup
         {
           text: 'CSS',
@@ -55,8 +55,8 @@ module.exports = {
 	          {
 	            text: 'HTML基础',
 	        	  collapsible: true,
-	            children: ['/html/html发展史.md', '/html/html排版标签.md','/html/html文字和超链接标签.md','/html/html其他标签.md'],
-	          },
+          children: ['/html/html发展史.md', '/html/html5发展史.md','/html/html文档标签.md','/html/html内容标签.md','/html/html图片和媒体标签','/html/html表格标签.md','/html/html表单标签.md'],    
+			  },
 	        ],
 			'/css/': [
 			  {
