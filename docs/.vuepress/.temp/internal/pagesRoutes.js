@@ -2,6 +2,9 @@ export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-533712c8","/css/css%E8%83%8C%E6%99%AF.html",{"title":"css背景"},["/css/css背景.html","/css/css%E8%83%8C%E6%99%AF","/css/css背景.md","/css/css%E8%83%8C%E6%99%AF.md"]],
   ["v-74458d05","/css/",{"title":"CSS基础"},["/css/index.html","/css/README.md"]],
+  ["v-519a9efa","/guide/vscode.html",{"title":"VsCode开发工具"},["/guide/vscode","/guide/vscode.md"]],
+  ["v-e6b0cc1a","/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html",{"title":"WEB前端发展"},["/guide/WEB前端发展.html","/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95","/guide/WEB前端发展.md","/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.md"]],
+  ["v-3ff9b3ca","/guide/%E6%B5%8F%E8%A7%88%E5%99%A8.html",{"title":"浏览器"},["/guide/浏览器.html","/guide/%E6%B5%8F%E8%A7%88%E5%99%A8","/guide/浏览器.md","/guide/%E6%B5%8F%E8%A7%88%E5%99%A8.md"]],
   ["v-3210b664","/html/html5%E5%8F%91%E5%B1%95%E5%8F%B2.html",{"title":"HTML5发展史"},["/html/html5发展史.html","/html/html5%E5%8F%91%E5%B1%95%E5%8F%B2","/html/html5发展史.md","/html/html5%E5%8F%91%E5%B1%95%E5%8F%B2.md"]],
   ["v-570b6d04","/html/html%E5%86%85%E5%AE%B9%E6%A0%87%E7%AD%BE.html",{"title":"HTML内容标签"},["/html/html内容标签.html","/html/html%E5%86%85%E5%AE%B9%E6%A0%87%E7%AD%BE","/html/html内容标签.md","/html/html%E5%86%85%E5%AE%B9%E6%A0%87%E7%AD%BE.md"]],
   ["v-907d164a","/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.html",{"title":"HTML发展史"},["/html/html发展史.html","/html/html%E5%8F%91%E5%B1%95%E5%8F%B2","/html/html发展史.md","/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.md"]],
@@ -9,8 +12,5 @@ export const pagesRoutes = [
   ["v-721f7adc","/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.html",{"title":"HTML文档标签"},["/html/html文档标签.html","/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE","/html/html文档标签.md","/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.md"]],
   ["v-172d4b28","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.html",{"title":"HTML表单标签"},["/html/html表单标签.html","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE","/html/html表单标签.md","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.md"]],
   ["v-5fe27e89","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html",{"title":"HTML表格标签"},["/html/html表格标签.html","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE","/html/html表格标签.md","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.md"]],
-  ["v-519a9efa","/guide/vscode.html",{"title":"VsCode开发工具"},["/guide/vscode","/guide/vscode.md"]],
-  ["v-e6b0cc1a","/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html",{"title":"WEB前端发展"},["/guide/WEB前端发展.html","/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95","/guide/WEB前端发展.md","/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.md"]],
-  ["v-3ff9b3ca","/guide/%E6%B5%8F%E8%A7%88%E5%99%A8.html",{"title":"浏览器"},["/guide/浏览器.html","/guide/%E6%B5%8F%E8%A7%88%E5%99%A8","/guide/浏览器.md","/guide/%E6%B5%8F%E8%A7%88%E5%99%A8.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]

@@ -7,6 +7,12 @@ export const pagesComponents = {
   "v-533712c8": defineAsyncComponent(() => import(/* webpackChunkName: "v-533712c8" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/css/css背景.html.vue")),
   // path: /css/
   "v-74458d05": defineAsyncComponent(() => import(/* webpackChunkName: "v-74458d05" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/css/index.html.vue")),
+  // path: /guide/vscode.html
+  "v-519a9efa": defineAsyncComponent(() => import(/* webpackChunkName: "v-519a9efa" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/vscode.html.vue")),
+  // path: /guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html
+  "v-e6b0cc1a": defineAsyncComponent(() => import(/* webpackChunkName: "v-e6b0cc1a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/WEB前端发展.html.vue")),
+  // path: /guide/%E6%B5%8F%E8%A7%88%E5%99%A8.html
+  "v-3ff9b3ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ff9b3ca" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/浏览器.html.vue")),
   // path: /html/html5%E5%8F%91%E5%B1%95%E5%8F%B2.html
   "v-3210b664": defineAsyncComponent(() => import(/* webpackChunkName: "v-3210b664" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html5发展史.html.vue")),
   // path: /html/html%E5%86%85%E5%AE%B9%E6%A0%87%E7%AD%BE.html
@@ -21,12 +27,6 @@ export const pagesComponents = {
   "v-172d4b28": defineAsyncComponent(() => import(/* webpackChunkName: "v-172d4b28" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html表单标签.html.vue")),
   // path: /html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html
   "v-5fe27e89": defineAsyncComponent(() => import(/* webpackChunkName: "v-5fe27e89" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html表格标签.html.vue")),
-  // path: /guide/vscode.html
-  "v-519a9efa": defineAsyncComponent(() => import(/* webpackChunkName: "v-519a9efa" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/vscode.html.vue")),
-  // path: /guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html
-  "v-e6b0cc1a": defineAsyncComponent(() => import(/* webpackChunkName: "v-e6b0cc1a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/WEB前端发展.html.vue")),
-  // path: /guide/%E6%B5%8F%E8%A7%88%E5%99%A8.html
-  "v-3ff9b3ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ff9b3ca" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/浏览器.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/404.html.vue")),
 }
