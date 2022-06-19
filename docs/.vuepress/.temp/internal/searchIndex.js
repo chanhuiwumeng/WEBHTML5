@@ -409,19 +409,111 @@ export const searchIndex = [
         "level": 2,
         "title": "内容标签",
         "slug": "内容标签",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "HTML<head>标题",
+            "slug": "html-head-标题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<header>标签",
+            "slug": "html-header-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<article>标签",
+            "slug": "html-article-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<section>标签",
+            "slug": "html-section-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<nav>标签",
+            "slug": "html-nav-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<aside>标签",
+            "slug": "html-aside-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTTML<hgroup>标签",
+            "slug": "httml-hgroup-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<footer>标签",
+            "slug": "html-footer-标签",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
-        "title": "行内标签",
-        "slug": "行内标签",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "",
-        "slug": "",
-        "children": []
+        "title": "文本标签",
+        "slug": "文本标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "HTML<p>标签",
+            "slug": "html-p-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<ul>标签",
+            "slug": "html-ul-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<ol>标签",
+            "slug": "html-ol-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<blockquote>标签",
+            "slug": "html-blockquote-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<hr>标签",
+            "slug": "html-hr-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML <figure>和<figcaption>标签",
+            "slug": "html-figure-和-figcaption-标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<dl>、<dt>、<dd>标签(自定义列表)",
+            "slug": "html-dl-、-dt-、-dd-标签-自定义列表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HTML<pre>标签",
+            "slug": "html-pre-标签",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/html/html%E5%86%85%E5%AE%B9%E6%A0%87%E7%AD%BE.html",
@@ -488,8 +580,109 @@ export const searchIndex = [
   },
   {
     "title": "HTML文档标签",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML简介",
+        "slug": "html简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HTML基本结构",
+        "slug": "html基本结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "文档标签",
+        "slug": "文档标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "base标签",
+            "slug": "base标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "head标签",
+            "slug": "head标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "link标签",
+            "slug": "link标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "meta标签",
+            "slug": "meta标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "style标签",
+            "slug": "style标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "title标签",
+            "slug": "title标签",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "字符集和字符编码表",
+        "slug": "字符集和字符编码表",
+        "children": [
+          {
+            "level": 3,
+            "title": "基础知识",
+            "slug": "基础知识",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常用字符集和字符编码",
+            "slug": "常用字符集和字符编码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ASCII 字符集&编码",
+            "slug": "ascii-字符集-编码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "伟大的创想 Unicode",
+            "slug": "伟大的创想-unicode",
+            "children": []
+          }
+        ]
+      }
+    ],
     "path": "/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTML行内标签",
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML<a>标签",
+        "slug": "html-a-标签",
+        "children": []
+      }
+    ],
+    "path": "/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE.html",
     "pathLocale": "/",
     "extraFields": []
   },

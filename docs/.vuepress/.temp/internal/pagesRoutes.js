@@ -10,6 +10,7 @@ export const pagesRoutes = [
   ["v-907d164a","/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.html",{"title":"HTML发展史"},["/html/html发展史.html","/html/html%E5%8F%91%E5%B1%95%E5%8F%B2","/html/html发展史.md","/html/html%E5%8F%91%E5%B1%95%E5%8F%B2.md"]],
   ["v-c2ddc342","/html/html%E5%9B%BE%E7%89%87%E5%92%8C%E5%AA%92%E4%BD%93%E6%A0%87%E7%AD%BE.html",{"title":"HTML图片和媒体标签"},["/html/html图片和媒体标签.html","/html/html%E5%9B%BE%E7%89%87%E5%92%8C%E5%AA%92%E4%BD%93%E6%A0%87%E7%AD%BE","/html/html图片和媒体标签.md","/html/html%E5%9B%BE%E7%89%87%E5%92%8C%E5%AA%92%E4%BD%93%E6%A0%87%E7%AD%BE.md"]],
   ["v-721f7adc","/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.html",{"title":"HTML文档标签"},["/html/html文档标签.html","/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE","/html/html文档标签.md","/html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.md"]],
+  ["v-e01d5c5e","/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE.html",{"title":"HTML行内标签"},["/html/html行内标签.html","/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE","/html/html行内标签.md","/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE.md"]],
   ["v-172d4b28","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.html",{"title":"HTML表单标签"},["/html/html表单标签.html","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE","/html/html表单标签.md","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.md"]],
   ["v-5fe27e89","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html",{"title":"HTML表格标签"},["/html/html表格标签.html","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE","/html/html表格标签.md","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],

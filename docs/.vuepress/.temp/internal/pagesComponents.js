@@ -23,6 +23,8 @@ export const pagesComponents = {
   "v-c2ddc342": defineAsyncComponent(() => import(/* webpackChunkName: "v-c2ddc342" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html图片和媒体标签.html.vue")),
   // path: /html/html%E6%96%87%E6%A1%A3%E6%A0%87%E7%AD%BE.html
   "v-721f7adc": defineAsyncComponent(() => import(/* webpackChunkName: "v-721f7adc" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html文档标签.html.vue")),
+  // path: /html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE.html
+  "v-e01d5c5e": defineAsyncComponent(() => import(/* webpackChunkName: "v-e01d5c5e" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html行内标签.html.vue")),
   // path: /html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.html
   "v-172d4b28": defineAsyncComponent(() => import(/* webpackChunkName: "v-172d4b28" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html表单标签.html.vue")),
   // path: /html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html

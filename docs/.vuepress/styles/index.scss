@@ -1,3 +1,7 @@
+:root{
+	--content-width: 960px;
+}
+
 .home .hero h1{
 	background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
 	-webkit-background-clip: text;
@@ -8,4 +12,7 @@
 .sidebar-item-children .sidebar-item-children .sidebar-item:not(.sidebar-heading).active{
 	font-weight: 700;
 	text-decoration: underline;
+}
+blockquote {
+	border-color: #42d392;
 }
