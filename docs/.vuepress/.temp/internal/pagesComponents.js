@@ -29,6 +29,8 @@ export const pagesComponents = {
   "v-172d4b28": defineAsyncComponent(() => import(/* webpackChunkName: "v-172d4b28" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html表单标签.html.vue")),
   // path: /html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html
   "v-5fe27e89": defineAsyncComponent(() => import(/* webpackChunkName: "v-5fe27e89" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/html/html表格标签.html.vue")),
+  // path: /interview/%E9%9D%A2%E8%AF%95%E5%B0%8F%E6%8A%80%E5%B7%A7.html
+  "v-14d1c18a": defineAsyncComponent(() => import(/* webpackChunkName: "v-14d1c18a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/interview/面试小技巧.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/404.html.vue")),
 }

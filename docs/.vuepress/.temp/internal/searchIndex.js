@@ -573,7 +573,65 @@ export const searchIndex = [
   },
   {
     "title": "HTML图片和媒体标签",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML<img>标签",
+        "slug": "html-img-标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "<img>基本属性",
+            "slug": "img-基本属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "支持的图片格式",
+            "slug": "支持的图片格式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "HTML<audio>标签",
+        "slug": "html-audio-标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "属性",
+            "slug": "属性",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "HTML<vedio>标签",
+        "slug": "html-vedio-标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本属性",
+            "slug": "基本属性",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "HTML<map>标签",
+        "slug": "html-map-标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HTML<area>标签",
+        "slug": "html-area-标签",
+        "children": []
+      }
+    ],
     "path": "/html/html%E5%9B%BE%E7%89%87%E5%92%8C%E5%AA%92%E4%BD%93%E6%A0%87%E7%AD%BE.html",
     "pathLocale": "/",
     "extraFields": []
@@ -679,6 +737,37 @@ export const searchIndex = [
         "level": 2,
         "title": "HTML<a>标签",
         "slug": "html-a-标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "页面连接",
+            "slug": "页面连接",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "锚点连接",
+            "slug": "锚点连接",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "发送邮件",
+            "slug": "发送邮件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超链接属性",
+            "slug": "超链接属性",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "HTML文字标签",
+        "slug": "html文字标签",
         "children": []
       }
     ],
@@ -697,6 +786,20 @@ export const searchIndex = [
     "title": "HTML表格标签",
     "headers": [],
     "path": "/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "面试小技巧",
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML<i>、<em>、<strong>、<b>的区别是什么?",
+        "slug": "html-i-、-em-、-strong-、-b-的区别是什么",
+        "children": []
+      }
+    ],
+    "path": "/interview/%E9%9D%A2%E8%AF%95%E5%B0%8F%E6%8A%80%E5%B7%A7.html",
     "pathLocale": "/",
     "extraFields": []
   },

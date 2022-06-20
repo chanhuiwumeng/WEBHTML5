@@ -13,5 +13,6 @@ export const pagesRoutes = [
   ["v-e01d5c5e","/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE.html",{"title":"HTML行内标签"},["/html/html行内标签.html","/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE","/html/html行内标签.md","/html/html%E8%A1%8C%E5%86%85%E6%A0%87%E7%AD%BE.md"]],
   ["v-172d4b28","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.html",{"title":"HTML表单标签"},["/html/html表单标签.html","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE","/html/html表单标签.md","/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.md"]],
   ["v-5fe27e89","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html",{"title":"HTML表格标签"},["/html/html表格标签.html","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE","/html/html表格标签.md","/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.md"]],
+  ["v-14d1c18a","/interview/%E9%9D%A2%E8%AF%95%E5%B0%8F%E6%8A%80%E5%B7%A7.html",{"title":"面试小技巧"},["/interview/面试小技巧.html","/interview/%E9%9D%A2%E8%AF%95%E5%B0%8F%E6%8A%80%E5%B7%A7","/interview/面试小技巧.md","/interview/%E9%9D%A2%E8%AF%95%E5%B0%8F%E6%8A%80%E5%B7%A7.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]

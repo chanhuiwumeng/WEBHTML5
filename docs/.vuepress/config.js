@@ -14,7 +14,6 @@ module.exports = {
         // NavbarItem
         {
           text: 'HTML',
-          text: 'HTML',
           children: ['/html/html发展史.md', '/html/html5发展史.md','/html/html文档标签.md','/html/html内容标签.md','/html/html图片和媒体标签','/html/html表格标签.md','/html/html表单标签.md'],        },
         // NavbarGroup
         {
@@ -41,6 +40,10 @@ module.exports = {
 		  text: '前端页面优化',
 		  children: ['/group/foo.md', '/group/bar.md'],
 		},
+		{
+		  text: '前端面试小技巧',
+		  children: ['/interview/面试小技巧.md', '/group/bar.md'],
+		},
       ],
 	   // 不同子路径下的页面会使用不同的侧边栏
 	      sidebar: {
@@ -63,6 +66,13 @@ module.exports = {
 			    text: 'css基础',
 				  collapsible: true,
 			    children: ['/css/README.md', '/css/css背景.md'],
+			  },
+			],
+			'/interview/': [
+			  {
+			    text: '前端面试小技巧',
+				  collapsible: true,
+			     children: ['/interview/面试小技巧.md', '/group/bar.md'],
 			  },
 			],
 	      },

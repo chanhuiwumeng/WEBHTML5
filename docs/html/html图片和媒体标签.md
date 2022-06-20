@@ -71,3 +71,119 @@ WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更
 ```html
 <img src="//img20.360buyimg.com/mobilecms/s300x300_jfs/t17092/242/1564085538/102732/1f9c832b/5aced93dNd35af3c6.jpg!q70.jpg.webp" class="lazyimg_img" alt="阿迪达斯减震系带跑鞋">
 ```
+## HTML`<audio>`标签
+HTML `<audio>` 元素用于在文档中嵌入音频内容。 `<audio>` 元素可以包含一个或多个音频资源，
+ 这些音频资源可以使用 src 属性或者`<source>` 元素来进行描述：浏览器将会选择最合适的一个来使用
+ 
+ 目前，`<audio>` 元素支持的3种文件格式：MP3、Wav、Ogg。
+ ### 属性
++ controls 控件
++ muted 表示是否静音的布尔值。默认值为 false，表示有声音。
++ loop  循环次数 负数就是死循环
++ autoplay  自动播放
++ src 嵌入的音频的 URL。 
+
+```html
+<audio controls>
+  <source src="https://www.runoob.com/try/demo_source/horse.ogg" >
+  <source src="horse.mp3" >
+您的浏览器不支持 audio 元素。
+</audio>
+```
+
+**`<audio>`和`<source>`**
+
+```html
+<audio controls>
+ <source src="foo.opus" type="audio/ogg; codecs=opus"/>
+ <source src="foo.ogg" type="audio/ogg; codecs=vorbis"/>
+ <source src="foo.mp3" type="audio/mpeg"/>
+  <p>
+     Your browser doesn't support HTML5 audio.
+     Here is a <a href="myAudio.mp4">link to download the audio</a> instead.
+   </p>
+</audio>
+```
+**页面效果是**
+
+![](/73.png)
+ 
+## HTML`<vedio>`标签
+HTML `<video>` 元素 用于在 HTML 或者 XHTML 文档中嵌入媒体播放器，用于支持文档内的视频播放
+### 基本属性
++ autoplay 声明该属性后，视频会尽快自动开始播放，不会停下来等待数据全部加载完成
++ controls 加上这个属性，浏览器会在视频底部提供一个控制面板，允许用户控制视频的播放，包括音量，跨帧，暂停/恢复播放
++ loop  布尔属性；指定后，会在视频播放结束的时候，自动返回视频开始的地方，继续播放。
++ muted  布尔属性，指明在视频中音频的默认设置。设置后，音频会初始化为静音。默认值是 false, 意味着视频播放的时候音频也会播放
++ src 要嵌到页面的视频的URL
+```html
+<video controls width="250">
+    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+            type="video/webm">
+    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video
+```
+**页面效果**
+
+![](/74.png)
+
+## HTML`<map>`标签
+`<map>` 标签用于客户端图像映射。图像映射指带有可点击区域的一幅图像。
+
+`<img>`中的 usemap 属性可引用 `<map>` 中的 id 或 name 属性（取决于浏览器），所以我们应同时向`<map>` 添加 id 和 name 属性。
+
+area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。
+```html
+<map name="infographic">
+	<area shape="poly" coords="130,147,200,107,254,219,130,228"
+		  href="https://developer.mozilla.org/docs/Web/HTML"
+		  target="_blank" alt="HTML" />
+	<area shape="poly" coords="130,147,130,228,6,219,59,107"
+		  href="https://developer.mozilla.org/docs/Web/CSS"
+		  target="_blank" alt="CSS" />
+	<area shape="poly" coords="130,147,200,107,130,4,59,107"
+		  href="https://developer.mozilla.org/docs/Web/JavaScript"
+		  target="_blank" alt="JavaScript" />
+</map>
+<img usemap="#infographic" src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info2.png" alt="MDN infographic" />
+```
+**页面显示效果**
+
+![](/75.png)
+## HTML`<area>`标签
+
+`<area>` 标签定义图像映射内部的区域（图像映射指的是带有可点击区域的图像）。
+
+`<area>` 元素始终嵌套在 `<map>` 标签内部。
+注释：`<img>` 标签中的 usemap 属性与 `<map>` 元素中的 name 相关联，以创建图像与映射之间的关系。
+```html
+<map name="infographic">
+    <area shape="rect" coords="184,6,253,27"
+          href="https://mozilla.org"
+          target="_blank" alt="Mozilla" />
+    <area shape="circle" coords="130,136,60"
+          href="https://developer.mozilla.org/"
+          target="_blank" alt="MDN" />
+    <area shape="poly" coords="130,6,253,96,223,106,130,39"
+          href="https://developer.mozilla.org/docs/Web/Guide/Graphics"
+          target="_blank" alt="Graphics" />
+    <area shape="poly" coords="253,96,207,241,189,217,223,103"
+          href="https://developer.mozilla.org/docs/Web/HTML"
+          target="_blank" alt="HTML" />
+    <area shape="poly" coords="207,241,54,241,72,217,189,217"
+          href="https://developer.mozilla.org/docs/Web/JavaScript"
+          target="_blank" alt="JavaScript" />
+    <area shape="poly" coords="54,241,6,97,36,107,72,217"
+          href="https://developer.mozilla.org/docs/Web/API"
+          target="_blank" alt="Web APIs" />
+    <area shape="poly" coords="6,97,130,6,130,39,36,107"
+          href="https://developer.mozilla.org/docs/Web/CSS"
+          target="_blank" alt="CSS" />
+</map>
+<img usemap="#infographic" src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info.png" alt="MDN infographic" />
+```
+**页面效果图**
+
+![](/76.png)
