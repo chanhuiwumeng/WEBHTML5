@@ -69,7 +69,9 @@ PNG格式有8位、24位、32位三种形式，其中8位PNG支持两种不同�
 <li>转换后的 WebP 支持 Alpha 透明和 24-bit 颜色数，不存在 PNG8 色彩不够丰富和在浏览器中可能会出现毛边的问题</li>
 </ul>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>//img20.360buyimg.com/mobilecms/s300x300_jfs/t17092/242/1564085538/102732/1f9c832b/5aced93dNd35af3c6.jpg!q70.jpg.webp<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lazyimg_img<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>阿迪达斯减震系带跑鞋<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="html-audio-标签" tabindex="-1"><a class="header-anchor" href="#html-audio-标签" aria-hidden="true">#</a> HTML<code v-pre>&lt;audio&gt;</code>标签</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="base64位的图片" tabindex="-1"><a class="header-anchor" href="#base64位的图片" aria-hidden="true">#</a> BASE64位的图片</h3>
+<p>sss</p>
+<h2 id="html-audio-标签" tabindex="-1"><a class="header-anchor" href="#html-audio-标签" aria-hidden="true">#</a> HTML<code v-pre>&lt;audio&gt;</code>标签</h2>
 <p>HTML <code v-pre>&lt;audio&gt;</code> 元素用于在文档中嵌入音频内容。 <code v-pre>&lt;audio&gt;</code> 元素可以包含一个或多个音频资源，
 这些音频资源可以使用 src 属性或者<code v-pre>&lt;source&gt;</code> 元素来进行描述：浏览器将会选择最合适的一个来使用</p>
 <p>目前，<code v-pre>&lt;audio&gt;</code> 元素支持的3种文件格式：MP3、Wav、Ogg。</p>

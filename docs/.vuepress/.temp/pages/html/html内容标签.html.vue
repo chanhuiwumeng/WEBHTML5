@@ -195,6 +195,9 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text_align-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>饮水思源，不忘老区。为人民谋幸福，是中国共产党始终坚守的初心。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>页面效果图</strong></p>
 <p><img src="/61.png" alt=""></p>
+<blockquote>
+<p>网页中99.9999%需要换行的时候，是因为另起了一个段落，所以要用p，而不要用<code v-pre>&lt;br /&gt;</code>。不到万不得已，不要用br标签。</p>
+</blockquote>
 <h3 id="html-ul-标签" tabindex="-1"><a class="header-anchor" href="#html-ul-标签" aria-hidden="true">#</a> HTML<code v-pre>&lt;ul&gt;</code>标签</h3>
 <p><code v-pre>&lt;ul&gt;</code> 标签定义无序列表。</p>
 <p>将 <code v-pre>&lt;ul&gt;</code> 标签与 <code v-pre>&lt;li&gt;</code> 标签一起使用，创建无序列表。</p>

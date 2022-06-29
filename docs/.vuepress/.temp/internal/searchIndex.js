@@ -590,6 +590,12 @@ export const searchIndex = [
             "title": "支持的图片格式",
             "slug": "支持的图片格式",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "BASE64位的图片",
+            "slug": "base64位的图片",
+            "children": []
           }
         ]
       },
@@ -784,7 +790,21 @@ export const searchIndex = [
   },
   {
     "title": "HTML表格标签",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML<table>标签",
+        "slug": "html-table-标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "table样式定义",
+            "slug": "table样式定义",
+            "children": []
+          }
+        ]
+      }
+    ],
     "path": "/html/html%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE.html",
     "pathLocale": "/",
     "extraFields": []

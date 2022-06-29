@@ -71,6 +71,9 @@ WebP 的优势体现在它具有更优的图像数据压缩算法，能带来更
 ```html
 <img src="//img20.360buyimg.com/mobilecms/s300x300_jfs/t17092/242/1564085538/102732/1f9c832b/5aced93dNd35af3c6.jpg!q70.jpg.webp" class="lazyimg_img" alt="阿迪达斯减震系带跑鞋">
 ```
+
+### BASE64位的图片
+sss
 ## HTML`<audio>`标签
 HTML `<audio>` 元素用于在文档中嵌入音频内容。 `<audio>` 元素可以包含一个或多个音频资源，
  这些音频资源可以使用 src 属性或者`<source>` 元素来进行描述：浏览器将会选择最合适的一个来使用
