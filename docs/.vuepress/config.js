@@ -18,7 +18,7 @@ module.exports = {
         // NavbarGroup
         {
           text: 'CSS',
-          children: ['/css/README.md', '/css/css背景.md'],
+          children: ['/css/css简介和发展史.md', '/css/css背景.md'],
         },
 		{
 		  text: '移动端布局',
@@ -65,7 +65,7 @@ module.exports = {
 			  {
 			    text: 'css基础',
 				  collapsible: true,
-			    children: ['/css/README.md', '/css/css背景.md'],
+			    children: ['/css/css简介和发展史.md', '/css/css背景.md'],
 			  },
 			],
 			'/interview/': [

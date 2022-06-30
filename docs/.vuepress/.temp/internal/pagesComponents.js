@@ -3,10 +3,10 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/index.html.vue")),
+  // path: /css/css%E7%AE%80%E4%BB%8B%E5%92%8C%E5%8F%91%E5%B1%95%E5%8F%B2.html
+  "v-156839bb": defineAsyncComponent(() => import(/* webpackChunkName: "v-156839bb" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/css/css简介和发展史.html.vue")),
   // path: /css/css%E8%83%8C%E6%99%AF.html
   "v-533712c8": defineAsyncComponent(() => import(/* webpackChunkName: "v-533712c8" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/css/css背景.html.vue")),
-  // path: /css/
-  "v-74458d05": defineAsyncComponent(() => import(/* webpackChunkName: "v-74458d05" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/css/index.html.vue")),
   // path: /guide/vscode.html
   "v-519a9efa": defineAsyncComponent(() => import(/* webpackChunkName: "v-519a9efa" */"E:/资料/新版web前端课程资料/WEBHTML5/docs/.vuepress/.temp/pages/guide/vscode.html.vue")),
   // path: /guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html

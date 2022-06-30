@@ -7,6 +7,32 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "CSS基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "CSS简介",
+        "slug": "css简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "css使用方式",
+        "slug": "css使用方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "css布局",
+        "slug": "css布局",
+        "children": []
+      }
+    ],
+    "path": "/css/css%E7%AE%80%E4%BB%8B%E5%92%8C%E5%8F%91%E5%B1%95%E5%8F%B2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "css背景",
     "headers": [
       {
@@ -29,32 +55,6 @@ export const searchIndex = [
       }
     ],
     "path": "/css/css%E8%83%8C%E6%99%AF.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "CSS基础",
-    "headers": [
-      {
-        "level": 2,
-        "title": "CSS简介",
-        "slug": "css简介",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "css使用方式",
-        "slug": "css使用方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "css布局",
-        "slug": "css布局",
-        "children": []
-      }
-    ],
-    "path": "/css/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -783,7 +783,32 @@ export const searchIndex = [
   },
   {
     "title": "HTML表单标签",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "Form表单的基础使用",
+        "slug": "form表单的基础使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "常用表单的控件",
+        "slug": "常用表单的控件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HTML5新增的表单控件类型",
+        "slug": "html5新增的表单控件类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "HTML5其他的表单属性",
+        "slug": "html5其他的表单属性",
+        "children": []
+      }
+    ],
     "path": "/html/html%E8%A1%A8%E5%8D%95%E6%A0%87%E7%AD%BE.html",
     "pathLocale": "/",
     "extraFields": []
@@ -800,6 +825,18 @@ export const searchIndex = [
             "level": 3,
             "title": "table样式定义",
             "slug": "table样式定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "表格的单元格合并效果",
+            "slug": "表格的单元格合并效果",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "table布局",
+            "slug": "table布局",
             "children": []
           }
         ]
