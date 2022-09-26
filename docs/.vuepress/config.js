@@ -18,7 +18,7 @@ module.exports = {
         // NavbarGroup
         {
           text: 'CSS',
-          children: ['/css/css简介和发展史.md', '/css/css背景.md'],
+          children: ['/css/css简介和发展史.md', '/css/css选择器.md','/css/css背景.md',],
         },
 		{
 		  text: '移动端布局',
@@ -58,14 +58,14 @@ module.exports = {
 	          {
 	            text: 'HTML基础',
 	        	  collapsible: true,
-          children: ['/html/html发展史.md', '/html/html5发展史.md','/html/html文档标签.md','/html/html内容标签.md','/html/html行内标签.md','/html/html图片和媒体标签','/html/html表格标签.md','/html/html表单标签.md'],    
+          children: ['/html/html发展史.md', '/html/html5发展史.md','/html/html文档标签.md','/html/html内容标签.md','/html/html行内标签.md','/html/html图片和媒体标签','/html/html表格标签.md','/html/html表单标签.md'],
 			  },
 	        ],
 			'/css/': [
 			  {
 			    text: 'css基础',
 				  collapsible: true,
-			    children: ['/css/css简介和发展史.md', '/css/css背景.md'],
+			    children: ['/css/css简介和发展史.md', '/css/css选择器.md','/css/css背景.md',],
 			  },
 			],
 			'/interview/': [
@@ -82,6 +82,6 @@ module.exports = {
 	    searchPlugin({
 	      // 配置项
 	    }),
-		backToTopPlugin(),
+		'@vuepress/back-to-top',
 	  ],
 }

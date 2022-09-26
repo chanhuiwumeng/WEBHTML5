@@ -11,21 +11,77 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "CSS简介",
-        "slug": "css简介",
-        "children": []
+        "title": "CSS简介和发展史",
+        "slug": "css简介和发展史",
+        "children": [
+          {
+            "level": 3,
+            "title": "CSS简介",
+            "slug": "css简介",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "CSS发展史",
+            "slug": "css发展史",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "CSS历史大事件",
+            "slug": "css历史大事件",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
         "title": "css使用方式",
         "slug": "css使用方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "css布局",
-        "slug": "css布局",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "css 行内样式",
+            "slug": "css-行内样式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "css 内部样式",
+            "slug": "css-内部样式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "css 外部样式(连接样式)",
+            "slug": "css-外部样式-连接样式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "css 导入样式(@import)",
+            "slug": "css-导入样式-import",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "css的几种使用方式的优先级",
+            "slug": "css的几种使用方式的优先级",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "css 命名规则",
+            "slug": "css-命名规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看浏览器支持css的网站",
+            "slug": "查看浏览器支持css的网站",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/css/css%E7%AE%80%E4%BB%8B%E5%92%8C%E5%8F%91%E5%B1%95%E5%8F%B2.html",
@@ -55,6 +111,107 @@ export const searchIndex = [
       }
     ],
     "path": "/css/css%E8%83%8C%E6%99%AF.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "css选择器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "基本选择器",
+        "slug": "基本选择器",
+        "children": [
+          {
+            "level": 3,
+            "title": "通配符选择器",
+            "slug": "通配符选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "类型选择器",
+            "slug": "类型选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "class选择器",
+            "slug": "class选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ID选择器",
+            "slug": "id选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "属性选择器",
+            "slug": "属性选择器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "分组选择器",
+        "slug": "分组选择器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关系选择器",
+        "slug": "关系选择器",
+        "children": [
+          {
+            "level": 3,
+            "title": "后代选择器",
+            "slug": "后代选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "子选择器(>)",
+            "slug": "子选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "兄弟选择器(~)",
+            "slug": "兄弟选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "相邻选择器(+)",
+            "slug": "相邻选择器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "伪类",
+        "slug": "伪类",
+        "children": [
+          {
+            "level": 3,
+            "title": "伪类选择器",
+            "slug": "伪类选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "伪元素选择器",
+            "slug": "伪元素选择器",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/css/css%E9%80%89%E6%8B%A9%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -193,6 +350,13 @@ export const searchIndex = [
       }
     ],
     "path": "/guide/WEB%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/guide/%E5%8A%9D%E5%AD%A6.html",
     "pathLocale": "/",
     "extraFields": []
   },

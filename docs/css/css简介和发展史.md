@@ -1,5 +1,7 @@
 # CSS基础
 ## CSS简介和发展史
+[W3C CSS 官方文档 https://www.w3.org/TR/css-2021/](https://www.w3.org/TR/css-2021/)
+
 ### CSS简介
 CSS 是`“Cascading Style Sheet”`的缩写，中文意思为“层叠样式表”，它是一种标准的样式表语言，用于描述网页的表现形式（例如网页元素的位置、大小、颜色等）。
 
@@ -63,4 +65,109 @@ CSS2 的规范是基于 CSS1 设计的，包含了 CSS1 所有的功能，并扩
 2001年5月份，w3c发布了第三个css3.0（层叠样式表）版本，css3.0开始遵循模块化开发，该标准将整个网页系统划分为很多的相互独立的子模块，然后让程序员根据不同的模块进行开发与设计对应的层叠样式表，用来减少css文件的体积。
 
 ## css使用方式
-## css布局
+
+### css 行内样式
+行内样式就是在开始标签内部使用`style`进行css属性样式的定义,多个样式之间使用分号`;`隔开,行内css只能对于当前的标签的css影响,当样式的属性
+名称相同的时候,行内样式 也会覆盖,外部样式和内部样式
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p style="color:red;font-size: 18px;">CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+	</body>
+</html>
+```
+### css 内部样式
+
+内部样式在页面的开始部分,`head标签内部`,使用`style`标签,再在`style`标签内部进行css样式属性的定义,内部样式会覆盖外部样式,行内样式会覆盖内部样式.一般首先使用外部的样式定义整体
+网站的css样式,在使用内部样式对当前页面的个别标签进行定义
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p{
+				color:red;
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<p >CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+		<p >CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+	</body>
+</html>
+```
+### css 外部样式(连接样式)
+将多个页面的网站的样式几种在一个单独的后缀名为`.css`的样式表文件中,这样在多个页面在使用`link`
+标签就可有引入相同的样式了,后边网站样式需要修改值需要修改样式表中的样式那么整个网站的所有引用相同样式表的所有
+页面的样式都会发生变化
+
+**style.css**
+```css
+p{
+	color:red;
+	font-size: 18px;
+}
+```
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<p >CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+		<p >CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+	</body>
+</html>
+```
+
+### css 导入样式(@import)
+使用`@import`必须在其他样式使用之前首先导入,不然不会起作用,`@import`导入的样式在页面被加载完成以后才会进行渲染
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			@import url('https://g.alicdn.com/??tbhome/taobao-2021/0.0.34/lib/style/page-min.css,tbhome/taobao-2021/0.0.34/lib/style/index-min.css');
+		</style>
+	</head>
+	<body>
+		<p >CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+		<p >CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.</p>
+	</body>
+</html>
+```
+### css的几种使用方式的优先级
+
+行内样式表 > 内部样式表>外部样式表
+![img.png](img.png)
+### css 命名规则
+
+[W3C Css 语法规则 https://www.w3.org/TR/css-syntax-3/](https://www.w3.org/TR/css-syntax-3/)
+
+![](/R-C.png)
+
+![](/100.png)
+
+CSS 规则由选择符和声明两部分组成，其中选择符用于指出规则所要选择的元素,声明则又由两部分组成：属性和值。属性指出
+要影响元素哪方面的样式，值就是属性的一个新状态。
+
+### 查看浏览器支持css的网站
+
+[https://caniuse.com/](https://caniuse.com/)
+
+![](/101.png)

@@ -7,8 +7,8 @@ actions:
   - text: 快速上手 →
     link: /guide/WEB前端发展.md
     type: primary
-  - text: 项目简介
-    link: /guide/
+  - text: 劝学^_^
+    link: /guide/劝学.md
     type: secondary
 features:
   - title: 简洁至上
