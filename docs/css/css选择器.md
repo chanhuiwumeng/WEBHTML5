@@ -644,19 +644,582 @@ h1, h2:maybe-unsupported, h3 { font-family: sans-serif }
 </html>
 ```
 > <span style="color:#10B981">结构选择器</span>
-#### :first
-#### :last
 #### :first-child
+在一组兄弟元素中的第一个元素
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p:first-child {
+			  color: lime;
+			  background-color: black;
+			  padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		  <p>This text is selected!</p>
+		  <p>This text isn't selected.</p>
+		</div>
+		
+		<div>
+		  <h2>This text isn't selected: it's not a `p`.</h2>
+		  <p>This text isn't selected.</p>
+		</div>
+	</body>
+</html>
+```
 #### :last-child
+代表父元素的最后一个子元素
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p:last-child {
+			  color: lime;
+			  background-color: black;
+			  padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		  <p>This text is selected!</p>
+		  <p>This text isn't selected.</p>
+		</div>
+		
+		<div>
+		  <h2>This text isn't selected: it's not a `p`.</h2>
+		  <p>This text isn't selected.</p>
+		</div>
+	</body>
+</html>
+```
 #### :nth-child()
-#### :type-of-child()
+首先找到所有当前元素的兄弟元素，然后按照位置先后顺序从 1 开始排序，选择的结果为 CSS 伪类:nth-child 括号中表达式（an+b）匹配到的元素集合（n=0，1，2，3...）。
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			html {
+			  font-family: sans-serif;
+			}
+			
+			span,
+			div em {
+			  padding: 5px;
+			  border: 1px solid green;
+			  display: inline-block;
+			  margin-bottom: 3px;
+			}
+			
+			.first span:nth-child(2n+1),
+			.second span:nth-child(2n+1),
+			.third span:nth-of-type(2n+1) {
+			  background-color: lime;
+			}
+		</style>
+	</head>
+	<body>
+		<h3><code>span:nth-child(2n+1)</code>, WITHOUT an
+		   <code>&lt;em&gt;</code> among the child elements.</h3>
+		<p>Children 1, 3, 5, and 7 are selected.</p>
+		<div class="first">
+		  <span>Span 1!</span>
+		  <span>Span 2</span>
+		  <span>Span 3!</span>
+		  <span>Span 4</span>
+		  <span>Span 5!</span>
+		  <span>Span 6</span>
+		  <span>Span 7!</span>
+		</div>
+		
+		<br>
+		
+		<h3><code>span:nth-child(2n+1)</code>, WITH an
+		   <code>&lt;em&gt;</code> among the child elements.</h3>
+		<p>Children 1, 5, and 7 are selected.<br>
+		   3 is used in the counting because it is a child, but it isn't
+		   selected because it isn't a <code>&lt;span&gt;</code>.</p>
+		<div class="second">
+		  <span>Span!</span>
+		  <span>Span</span>
+		  <em>This is an `em`.</em>
+		  <span>Span</span>
+		  <span>Span!</span>
+		  <span>Span</span>
+		  <span>Span!</span>
+		  <span>Span</span>
+		</div>
+		
+		<br>
+		
+		<h3><code>span:nth-of-type(2n+1)</code>, WITH an
+		   <code>&lt;em&gt;</code> among the child elements.</h3>
+		<p>Children 1, 4, 6, and 8 are selected.<br>
+		   3 isn't used in the counting or selected because it is an <code>&lt;em&gt;</code>, 
+		   not a <code>&lt;span&gt;</code>, and <code>nth-of-type</code> only selects
+		   children of that type. The <code>&lt;em&gt;</code> is completely skipped
+		   over and ignored.</p>
+		<div class="third">
+		  <span>Span!</span>
+		  <span>Span</span>
+		  <em>This is an `em`.</em>
+		  <span>Span!</span>
+		  <span>Span</span>
+		  <span>Span!</span>
+		  <span>Span</span>
+		  <span>Span!</span>
+		</div>
+	</body>
+</html>
+```
+#### :first-of-type()
+表示一组兄弟元素中其类型的第一个元素
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p:first-of-type {
+			  color: red;
+			  font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Heading</h2>
+		<p>Paragraph 1</p>
+		<p>Paragraph 2</p>
+	</body>
+</html>
+```
+#### last-of-type()
+表示了在（它父元素的）子元素列表中，最后一个给定类型的元素。当代码类似 Parent tagName:last-of-type 的作用区域包含父元素的所有子元素中的最后一个选定元素，也包括子元素的最后一个子元素并以此类推。
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p:last-of-type {
+			  color: red;
+			  font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Heading</h2>
+		<p>Paragraph 1</p>
+		<p>Paragraph 2</p>
+	</body>
+</html>
+```
 #### :not()
+用来匹配不符合一组选择器的元素。由于它的作用是防止特定的元素被选中，它也被称为反选伪类（negation pseudo-class）
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		.fancy {
+		  text-shadow: 2px 2px 3px gold;
+		}
+		
+		/* 类名不是 `.fancy` 的 <p> 元素*/
+		p:not(.fancy) {
+		  color: green;
+		}
+		
+		/* 非 <p> 元素 */
+		body :not(p) {
+		  text-decoration: underline;
+		}
+		
+		/* 既不是 <div> 也不是 <span> 的元素 */
+		body :not(div):not(span) {
+		  font-weight: bold;
+		}
+		
+		/* 不是 <div> 或 `.fancy` 的元素*/
+		body :not(div, .fancy) {
+		  text-decoration: overline underline;
+		}
+		
+		/* <h2> 元素中不是有 `.foo` 类名的 <span> 元素 */
+		h2 :not(span.foo) {
+		  color: red;
+		}
+
+		</style>
+	</head>
+	<body>
+		<p>I am a paragraph.</p>
+		<p class="fancy">I am so very fancy!</p>
+		<div>I am NOT a paragraph.</div>
+		<h2>
+		  <span class="foo">foo inside h2</span>
+		  <span class="bar">bar inside h2</span>
+		</h2>
+	</body>
+</html>
+```
+#### :nth-last-of-type()
+`:nth-last-of-type(an+b)` 这个 CSS 伪类 匹配那些在它之后有 an+b-1 个相同类型兄弟节点的元素，其中 n 为正值或零值。它基本上和 `:nth-of-type 一样`，只是它从结尾处反序计数，而不是从开头处。
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		span:nth-last-of-type(2) {
+		  background-color: lime;
+		}
+		</style>
+	</head>
+	<body>
+		<div>
+		  <span>This is a span.</span>
+		  <span>This is another span.</span>
+		  <em>This is emphasized.</em>
+		  <span>Wow, this span gets limed!!!</span>
+		  <strike>This is struck through.</strike>
+		  <span>Here is one last span.</span>
+		</div>
+	</body>
+</html>
+```
 #### :root
 
+`:root` 这个 CSS 伪类匹配文档树的根元素。对于 HTML 来说，`:root` 表示 `<html>` 元素，除了优先级更高之外，与 html 选择器相同。
+
+```html
+:root {
+  --main-color: hotpink;
+  --pane-padding: 5px 42px;
+}
+```
+#### :is()
+`:is()` 函数将选择器列表作为参数，并选择该列表中任意一个选择器可以选择的元素。这对于以更紧凑的形式编写大型选择器非常有用。
+
+伪元素在 :is() 的选择器列表中无效。
+```html
+/* Level 0 */
+h1 {
+  font-size: 30px;
+}
+
+/* Level 1 */
+section h1,
+article h1,
+aside h1,
+nav h1 {
+  font-size: 25px;
+}
+
+/* Level 2 */
+section section h1,
+section article h1,
+section aside h1,
+section nav h1,
+article section h1,
+article article h1,
+article aside h1,
+article nav h1,
+aside section h1,
+aside article h1,
+aside aside h1,
+aside nav h1,
+nav section h1,
+nav article h1,
+nav aside h1,
+nav nav h1 {
+  font-size: 20px;
+}
+```
+**使用`is()变得更简单`**
+```html
+/* Level 0 */
+h1 {
+  font-size: 30px;
+}
+/* Level 1 */
+:is(section, article, aside, nav) h1 {
+  font-size: 25px;
+}
+/* Level 2 */
+:is(section, article, aside, nav) :is(section, article, aside, nav) h1 {
+  font-size: 20px;
+}
+/* Level 3 */
+:is(section, article, aside, nav)
+  :is(section, article, aside, nav)
+  :is(section, article, aside, nav)
+  h1 {
+  font-size: 15px;
+}
+```
 ### 伪元素选择器
 
 #### ::after
+`::after`用来创建一个伪元素，作为已选中元素的最后一个子元素。通常会配合content属性来为该元素添加装饰内容。这个虚拟元素默认是行内元素
+**基础语法**
+```html
+element:after  { style properties }  /* CSS2 语法 */
+
+element::after { style properties }  /* CSS3 语法 */
+```
+##### 简单用法
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		.exciting-text::after {
+		  content: "<- 让人兴兴兴奋！";
+		  color: green;
+		}
+		
+		.boring-text::after {
+		  content: "<- 无聊！";
+		  color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<p class="boring-text">这是些无聊的文字</p>
+		<p>这是不无聊也不有趣的文字</p>
+		<p class="exciting-text">在 MDN 上做贡献简单又轻松。
+		按右上角的编辑按钮添加新示例或改进旧示例！</p>
+	</body>
+</html>
+```
+##### 装饰用法
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		.ribbon {
+		 background-color: #5BC8F7;
+		}
+		
+		.ribbon::after {
+		 content: "Look at this orange box.";
+		 background-color: #FFBA10;
+		 border-color: black;
+		 border-style: dotted;
+		}
+		</style>
+	</head>
+	<body>
+	<span class="ribbon">Notice where the orange box is.</span>
+	</body>
+</html>
+```
+##### 提示用法
+用`::after`伪元素，attr()CSS 表达式和一个自定义数据属性 `data-descr`创建一个纯 CSS，词汇表提示工具
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        span[data-descr] {
+            position: relative;
+            text-decoration: underline;
+            color: #00F;
+            cursor: help;
+        }
+
+        span[data-descr]:hover::after {
+            content: attr(data-descr);
+            position: absolute;
+            left: 0;
+            top: 24px;
+            min-width: 200px;
+            border: 1px #aaaaaa solid;
+            border-radius: 10px;
+            background-color: #ffffcc;
+            padding: 12px;
+            color: #000000;
+            font-size: 14px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<p>这是上面代码的实现<br />
+    我们有一些 <span data-descr="collection of words and punctuation">文字</span> 有一些
+    <span data-descr="small popups which also hide again">提示</span>。<br />
+    把鼠标放上去<span data-descr="not to be taken literally">看看</span>。
+</p>
+</body>
+</html>
+```
 #### ::before
+`::before` 创建一个伪元素，其将成为匹配选中的元素的第一个子元素。常通过 `content` 属性来为一个元素添加修饰性的内容。此元素默认为行内元素
+**基础语法**
+```html
+/* CSS3 语法 */
+element::before { 样式 }
+
+/*（单冒号）CSS2 过时语法 (仅用来支持 IE8) */
+element:before  { 样式 }
+
+/* 在每一个 p 元素前插入内容 */
+p::before { content: "Hello world!"; }
+```
+##### 简单使用
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        q::before {
+            content: "«";
+            color: blue;
+        }
+        q::after {
+            content: "»";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<q>一些引用</q>, 他说，<q>比没有好。</q>.
+</body>
+</html>
+```
+##### 修饰使用
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		.ribbon {
+		   background-color: #5BC8F7;
+		}
+		
+		.ribbon::before {
+		   content:          "Look at this orange box.";
+		   background-color: #FFBA10;
+		   border-color:     black;
+		   border-style:     dotted;
+		}
+		</style>
+	</head>
+	<body>
+	<span class="ribbon">Notice where the orange box is.</span>
+	</body>
+</html
+```
+##### 待办列表
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		li {
+		  list-style-type: none;
+		  position: relative;
+		  margin: 2px;
+		  padding: 0.5em 0.5em 0.5em 2em;
+		  background: lightgrey;
+		  font-family: sans-serif;
+		}
+		
+		li.done {
+		  background: #CCFF99;
+		}
+		
+		li.done::before {
+		  content: '';
+		  position: absolute;
+		  border-color: #009933;
+		  border-style: solid;
+		  border-width: 0 0.3em 0.25em 0;
+		  height: 1em;
+		  top: 1.3em;
+		  left: 0.6em;
+		  margin-top: -1em;
+		  transform: rotate(45deg);
+		  width: 0.5em;
+		}
+		</style>
+	
+	</head>
+	<body>
+	<ul>
+	  <li>Buy milk</li>
+	  <li>Take the dog for a walk</li>
+	  <li>Exercise</li>
+	  <li>Write code</li>
+	  <li>Play music</li>
+	  <li>Relax</li>
+	</ul>
+	<script>
+		var list = document.querySelector('ul');
+		list.addEventListener('click', function(ev) {
+		  if( ev.target.tagName === 'LI') {
+		     ev.target.classList.toggle('done');
+		  }
+		}, false);
+	</script>
+	</body>
+</html>
+```
+
+####  ::first-letter (:first-letter)
+`::first-letter`会选中某 `block-level element`（块级元素）第一行的第一个字母，并且文字所处的行之前没有其他内容（如图片和内联的表格）
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		/* 使每段开头的第一个字母变红变大 */
+		p::first-letter {  /* 使用:first 来兼容 IE8- */
+		  color: red;
+		  font-size: 130%;
+		}
+		</style>
+	</head>
+	<body>
+	<p>Punctuation that precedes or immediately follows the first letter is included in the match</p>
+	</body>
+</html>
+```
 
 
 
